@@ -17,3 +17,13 @@ variable "region_osaka" {
   type    = string
   default = "asia-northeast2"
 }
+
+variable "state_file_bucket" {
+  type        = string
+  description = "The GCS bucket name for Terraform state files"
+}
+
+variable "feature_name" {
+  type = string
+  description = "The feature name"
+}
