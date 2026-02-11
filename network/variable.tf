@@ -1,11 +1,6 @@
-variable "project_id_a" {
+variable "project_id" {
   type        = string
   description = "The GCP Project ID for Project A"
-}
-
-variable "project_id_b" {
-  type        = string
-  description = "The GCP Project ID for Project B"
 }
 
 variable "region_tokyo" {

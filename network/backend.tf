@@ -1,7 +1,6 @@
 terraform {
   backend "gcs" {
-    bucket  = "your-unique-bucket-name"
-    prefix  = var.feature_name
+    prefix  = "argocd"
   }
   required_version = ">= 1.3"
   required_providers {
